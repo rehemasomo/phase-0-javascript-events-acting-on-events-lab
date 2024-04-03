@@ -133,9 +133,7 @@ the information it contains by defining a parameter for the callback. It looks
 like this:
 
 ```javascript
-document.addEventListener("keydown", function (event) {
-  console.log(event);
-});
+dodger.style.left = "0px";
 ```
 
 By defining the `event` parameter in the parentheses, we've given the body of
